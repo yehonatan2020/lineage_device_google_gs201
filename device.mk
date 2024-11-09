@@ -980,7 +980,6 @@ include device/google/gs-common/sensors/sensors.mk
 $(call soong_config_set,usf,target_soc,gs201)
 
 PRODUCT_COPY_FILES += \
-	device/google/gs201/default-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions.xml \
 	device/google/gs201/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
 
 # modem logging configs
